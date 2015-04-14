@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Client	SimpleDhtProvider.java	/^        public Client(Message m) {$/;"	m	class:SimpleDhtProvider.Client
+Client	SimpleDhtProvider.java	/^    public class Client implements Runnable {$/;"	c	class:SimpleDhtProvider
+Send	SimpleDhtProvider.java	/^    public void Send(Message msg) {$/;"	m	class:SimpleDhtProvider
+Server	SimpleDhtProvider.java	/^        public Server(Context c) {$/;"	m	class:SimpleDhtProvider.Server
+Server	SimpleDhtProvider.java	/^    public class Server implements Runnable {$/;"	c	class:SimpleDhtProvider
+SimpleDhtProvider	SimpleDhtProvider.java	/^public class SimpleDhtProvider extends ContentProvider {$/;"	c
+TAG	SimpleDhtProvider.java	/^        private String TAG = Client.class.getSimpleName();$/;"	f	class:SimpleDhtProvider.Client	file:
+TAG	SimpleDhtProvider.java	/^        private String TAG = Server.class.getSimpleName();$/;"	f	class:SimpleDhtProvider.Server	file:
+TAG	SimpleDhtProvider.java	/^    private static String TAG = SimpleDhtProvider.class.getSimpleName();$/;"	f	class:SimpleDhtProvider	file:
+context	SimpleDhtProvider.java	/^        Context context;$/;"	f	class:SimpleDhtProvider.Server
+context	SimpleDhtProvider.java	/^    Context context; \/\/ application context$/;"	f	class:SimpleDhtProvider
+curs	SimpleDhtProvider.java	/^    public static Cursor curs; \/\/ cursor object used to store the cursor returned by query$/;"	f	class:SimpleDhtProvider
+db	SimpleDhtProvider.java	/^    SQLiteDatabase db; \/\/ database object$/;"	f	class:SimpleDhtProvider
+delete	SimpleDhtProvider.java	/^    public int delete(Uri uri, String oselection, String[] selectionArgs) {$/;"	m	class:SimpleDhtProvider
+edu.buffalo.cse.cse486586.simpledht	SimpleDhtProvider.java	/^package edu.buffalo.cse.cse486586.simpledht;$/;"	p
+getLocalPort	SimpleDhtProvider.java	/^    private int getLocalPort() {$/;"	m	class:SimpleDhtProvider	file:
+getType	SimpleDhtProvider.java	/^    public String getType(Uri uri) {$/;"	m	class:SimpleDhtProvider
+insert	SimpleDhtProvider.java	/^    public Uri insert(Uri uri, ContentValues values) {$/;"	m	class:SimpleDhtProvider
+localId	SimpleDhtProvider.java	/^    public static String localId;$/;"	f	class:SimpleDhtProvider
+localPort	SimpleDhtProvider.java	/^    public static int localPort;$/;"	f	class:SimpleDhtProvider
+msg	SimpleDhtProvider.java	/^        Message msg;$/;"	f	class:SimpleDhtProvider.Client
+onCreate	SimpleDhtProvider.java	/^    public boolean onCreate() {$/;"	m	class:SimpleDhtProvider
+predecessorId	SimpleDhtProvider.java	/^    public static String predecessorId; \/\/ hash of port$/;"	f	class:SimpleDhtProvider
+predecessorPort	SimpleDhtProvider.java	/^    public static int predecessorPort;$/;"	f	class:SimpleDhtProvider
+query	SimpleDhtProvider.java	/^    public Cursor query(Uri uri, String[] projection, String oselection, String[] selectionArgs,$/;"	m	class:SimpleDhtProvider
+run	SimpleDhtProvider.java	/^        public void run() {$/;"	m	class:SimpleDhtProvider.Client
+run	SimpleDhtProvider.java	/^        public void run() {$/;"	m	class:SimpleDhtProvider.Server
+sDbHelper	SimpleDhtProvider.java	/^    DbHelper sDbHelper; \/\/ database helper$/;"	f	class:SimpleDhtProvider
+successorId	SimpleDhtProvider.java	/^    public static String successorId;$/;"	f	class:SimpleDhtProvider
+successorPort	SimpleDhtProvider.java	/^    public static int successorPort;$/;"	f	class:SimpleDhtProvider
+update	SimpleDhtProvider.java	/^    public int update(Uri uri, ContentValues values, String selection, String[] selectionArgs) {$/;"	m	class:SimpleDhtProvider
